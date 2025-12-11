@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+   
+
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <div class="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 to-slate-800">
+<div class=" backdrop-blur-xl rounded-3xl p-14 shadow-2xl w-[420px] text-center">
+ <div class="h-32 flex items-center justify-center">
+      <h1 id="icon10" class="hidden text-6xl animate-spin">🤦</h1>
+      <h1 id="icon30" class="hidden text-6xl animate-bounce">🤴</h1>
+      <h1 id="icon40" class="hidden text-6xl animate-pulse">😉</h1>
+      <h1 id="icon50" class="hidden text-6xl animate-ping">🤦‍♀️</h1>
+      <h1 id="icon100" class="hidden text-6xl animate-spin">😒</h1>
+    </div>
+
+    <h1 id="counter" class="text-8xl font-bold text-slate-600 my-6 drop-shadow-lg ">
+      0
+    </h1>
+
+    <div class="flex flex-col gap-5 mt-10">
+      <button
+        id="btnIncrm"
+        class="px-8 py-4 bg-emeral bg-fuchsia-600 -500 hover:bg-rose-600 active:scale-95 transition-all duration-200 rounded-2xl text-white text-2xl font-semibold shadow-lg">
+        Increment
+      </button>
+      <button
+        id="btnDecr"
+        class="px-7 py-3 bg-purple-800-500   hover:bg-violet-500 active:scale-95 transition-all duration-200 rounded-2xl text-white text-2xl font-semibold shadow-lg ">
+        Decrement
+      </button>
+
+      <button
+        id="btnReset"
+        class="px-7 py-3 bg-fuchsia-500 hover:bg-rose-800 active:scale-x-90 transition-all duration-190 rounded-2xl text-white text-2xl font-semibold shadow-lg">
+         Reset
+      </button>
+    </div>
+
+  </div>
+</div>
+ <script src="index.js"></script>
+</body>
+</html>
