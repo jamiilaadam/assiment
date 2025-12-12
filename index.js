@@ -22,8 +22,11 @@ btnIncrm.addEventListener("click", ()=> {
     icon100.style.display = "none"
 
     if(currentValue === 10){
-        counter.style.color = "red"
+        counter.style.color = "pink"
         icon10.style.display = "block"
+    }
+    else if (currentValue ===20){
+        icon20.style.display= block
     }
     else if(currentValue === 30){
         counter.style.color = "pink"
@@ -61,7 +64,13 @@ btnDec.addEventListener("click", ()=> {
     if(currentValue === 10){
         counter.style.color = "pink"
         icon10.style.display = "block"
+       
     }
+
+     else if (currentValue===20){
+             counter.style.color = "pink"
+        icon30.style.display = "block"
+        }
     else if(currentValue === 30){
         counter.style.color = "pink"
         icon30.style.display = "block"
@@ -75,7 +84,7 @@ btnDec.addEventListener("click", ()=> {
         icon50.style.display = "block"
     }
     else if(currentValue === 100){
-        counter.style.color ="pink"
+        counter.style.color = "red"
         icon100.style.display = "block"
     }
     else{
